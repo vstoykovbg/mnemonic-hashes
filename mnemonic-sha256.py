@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from Cryptodome.Util.RFC1751 import key_to_english
+from Crypto.Util.RFC1751 import key_to_english
 import mnemonic
 import binascii
 import base62
